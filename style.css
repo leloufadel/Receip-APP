@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+}
+html{
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: 800;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    /* background-color: rgb(26, 26, 27); */
+    background-color:rgb(111, 35, 255);
+}
+.container{
+    width:90%;
+    height: auto;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.brand{
+    text-align: center;
+    font-size: x-large;
+    color: wheat;
+    margin-bottom: 2rem;
+}
+form{
+    width:90%;
+    max-width: 400px;
+    margin:20px auto;
+    background-color: rgb(223, 223, 223);
+    border-radius: 4px;
+}
+
+form input{
+    width:90%;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    display: inline-block;
+}
+form ion-icon{
+    width:9px;
+    font-size: 3rem;
+    margin:-9px ;
+    color: rgb(75, 75, 75);
+}
+.search-result {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item{
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgb(37, 10, 37);
+    /* background-color: rgb(26, 26, 27); */
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+.item .flex-container {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.item .title{
+    color: whitesmoke;
+    margin :20px 10px 0 0;
+    font-size: 1.8rem;
+    font-weight: 400px;
+}
+.view-button{ 
+    text-decoration: none;
+    text-align: center;
+    width: 130px; 
+    color: white;
+    background-color: #404041;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.item-data{
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+    font-size:1.4rem;
+    letter-spacing: .5rem;
+    line-height: 2rem;
+}
